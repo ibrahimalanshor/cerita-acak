@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="app.css">
+</head>
+<body class="bg-light d-flex align-items-center justify-content-center vh-100">
+	
+	<section class="bg-white rounded-sm shadow-sm w-25 p-3">
+		<h1 class="h2 font-weight-bold border-bottom pb-3 mb-3">Cerita Acak</h1>
+		
+		<div class="form-group">
+			<label>Nama</label>
+			<input type="text" placeholder="Nama" class="form-control nama">
+		</div>
+
+		<label>Suhu</label>
+		<div class="form-group">
+			<div class="form-check form-check-inline">
+				<input type="radio" name="suhu" class="form-check-input">
+				<label class="form-check-label">C</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input type="radio" name="suhu" class="fahrenheit form-check-input">
+				<label class="form-check-label">F</label>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<button class="btn btn-block btn-primary">Submit</button>
+		</div>
+
+		<p class="alert alert-info border"></p>
+
+	</section>
+
+	<script defer src="app.js"></script>
+
+</body>
+</html>
